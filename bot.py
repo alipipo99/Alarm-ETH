@@ -21,4 +21,19 @@ def send_message(text):
 if __name__ == "__main__":
     print("🚀 Starting ETH Alert Bot...")
     print(f"📨 Sending test message to chat ID: {CHAT_ID}")
-    send_message("🤖 ETH Alert Bot is now active and running!")
+    message = (
+        "👑 *ETH Market Watch Activated*
+
+"
+        "✅ *RSI* → 64.2
+"
+        "📊 *Funding Rate* → +0.017%
+"
+        "🐋 *Whale Activity* → Moderate inflows
+
+"
+        "📤 Alerts sent every 6 hours via Telegram
+"
+        "_By command of Sultan Ali, the King of Ethereum 👑_"
+    )
+    send_message(message)
