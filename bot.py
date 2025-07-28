@@ -1,5 +1,4 @@
 import os
-import time
 import requests
 from dotenv import load_dotenv
 
@@ -14,8 +13,12 @@ def send_message(text):
     try:
         r = requests.post(url, data=payload)
         r.raise_for_status()
-    except Exception as e:
-        print("Failed to send message:", e)
+        print("✅ Message sent successfully!")
+    except requests.exceptions.RequestException as e:
+        print("❌ Failed to send message:", e)
+        print("🔎 Check BOT_TOKEN and CHAT_ID environment variables.")
 
 if __name__ == "__main__":
-    send_message("🤖 Bot started successfully! ETH/ARB alerts will follow every 6 hours.")
+    print("🚀 Starting ETH Alert Bot...")
+    print(f"📨 Sending test message to chat ID: {CHAT_ID}")
+    send_message("🤖 ETH Alert Bot is now active and running!")
