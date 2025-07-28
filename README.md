@@ -6,8 +6,8 @@ This version includes error handling and prints debug info to Railway logs if me
 ## 🛠 Setup
 1. Create `.env` file:
 ```
-BOT_TOKEN=your_bot_token
-CHAT_ID=your_chat_id
+BOT_TOKEN=7687238301:AAGXMxVR4EDlR284kM4SdDCoEtPZoIMVZb8
+CHAT_ID=48102328
 ```
 
 2. Install dependencies:
