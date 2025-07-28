@@ -10,8 +10,8 @@
 1. Create a `.env` file with:
 
 ```
-BOT_TOKEN=your_bot_token
-CHAT_ID=your_chat_id
+BOT_TOKEN=7687238301:AAGXMxVR4EDlR284kM4SdDCoEtPZoIMVZb8
+CHAT_ID=48102328
 ```
 
 2. Run the bot:
